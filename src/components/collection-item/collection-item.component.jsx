@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './collection-item.styles.scss';
 
 const CollectionItem = ({ id, name, price, imageUrl }) => (
@@ -15,4 +16,5 @@ const CollectionItem = ({ id, name, price, imageUrl }) => (
     </div>
   </div>
 );
+
 export default CollectionItem;
